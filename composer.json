@@ -1,0 +1,18 @@
+{
+  "name": "dowlatow/js-widget-generator",
+  "description": "$.fn.widgetGenerator - widgetGenerator предназначен для облегчения создания jquery-плагинов. Выходным значением является функция, которая может быть использована в jQuery.fn",
+  "type": "library",
+  "license": "proprietary",
+  "version": "dev-master",
+  "homepage": "https://github.com/novokshonovev/js-widget-generator",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "dowlatow\\assets\\": ""
+    }
+  }
+}
