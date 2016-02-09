@@ -4,10 +4,11 @@ namespace dowlatow\assets;
 
 use yii\web\AssetBundle;
 use yii\web\JqueryAsset;
+
 class WidgetGeneratorAsset extends AssetBundle
 {
     public $js = [
-        'js/widget-generator.js',
+        'js' . DIRECTORY_SEPARATOR . 'widget-generator.js',
     ];
 
     public function init()
